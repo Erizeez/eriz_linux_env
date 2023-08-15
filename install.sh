@@ -11,8 +11,8 @@ echo -e "666666\n666666" | sudo passwd $(whoami)
 # 取消 root 用户输入密码的要求
 sudo sed -i 's/^%sudo\tALL=(ALL:ALL) ALL$/%sudo\tALL=(ALL:ALL) NOPASSWD:ALL/' /etc/sudoers
 
-git clone https://mirrors.tuna.tsinghua.edu.cn/git/ohmyzsh.git
+git clone http://mirrors.tuna.tsinghua.edu.cn/git/ohmyzsh.git
 cd ohmyzsh/tools
-REMOTE=https://mirrors.tuna.tsinghua.edu.cn/git/ohmyzsh.git sh install.sh
+REMOTE=http://mirrors.tuna.tsinghua.edu.cn/git/ohmyzsh.git sh install.sh
 
 echo "脚本执行完毕！"
