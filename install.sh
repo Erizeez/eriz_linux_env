@@ -2,7 +2,7 @@
 
 # 安装 vim 和 git 软件包
 sudo apt-get update
-sudo apt-get install -y vim git net-tools openssh-server curl zsh iperf3 iperf flex bison pahole make build-essential
+sudo apt-get install -y vim git net-tools openssh-server curl zsh iperf3 iperf flex bison pahole make build-essential libelf-dev libssl-dev
 
 # 修改当前用户密码为 666666
 echo "当前用户密码将被修改为 666666"
